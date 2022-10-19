@@ -1,0 +1,44 @@
+body {
+  height: 100vh;
+  background-image: linear-gradient(
+    to bottom right,
+    skyblue,
+    rgb(46, 176, 152)
+  );
+}
+p {
+  display: inline;
+  font-style: italic;
+  font-size: 2rem;
+}
+span {
+  font-size: 2.6rem;
+  margin-left: 0.6rem;
+  cursor: pointer;
+}
+.strike {
+  text-decoration: line-through;
+}
+.container {
+  padding: 1rem;
+  margin: 1rem 20%;
+  background-image: linear-gradient(to top left ,rgb(153, 81, 246), rgb(80, 207, 80));
+  border-radius: 2rem;
+  color: rgb(73, 235, 200);
+}
+h1,.form{
+text-align: center;
+}
+input{
+width: 80%;
+padding:4px;
+font-size: large;
+}
+button {
+  background-color: rgb(60, 153, 103);
+  border: none;
+  padding:10px;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  color:yellow;
+}
